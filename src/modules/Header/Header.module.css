@@ -1,0 +1,33 @@
+.wrapper {
+    grid-area: head;
+    background-color: #beb8b8;
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: relative;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-family: "Arial Black";
+    font-size: 32px;
+    padding: 5px 0 0 30px;
+}
+.cart {
+    margin: 15px 20px 0 0;
+    display: inline-block;
+    background-color: #5684f6;
+    border-radius: 30px;
+    padding: 10px 10px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}

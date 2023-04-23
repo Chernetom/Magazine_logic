@@ -1,0 +1,27 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.item {
+    margin: 0 10px 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 24px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.active {
+    margin: 0 10px 0 10px;
+    background-color: #5684f6;
+    width: 24px;
+    text-align: center;
+    border-radius: 100%;
+}
+.button {
+    background-color: #5684f6;
+    border: 1px solid #2a39e3;
+    width: 70px;
+    height: 25px;
+}

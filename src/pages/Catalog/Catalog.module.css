@@ -1,0 +1,11 @@
+.wrapper__up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0 11px;
+}

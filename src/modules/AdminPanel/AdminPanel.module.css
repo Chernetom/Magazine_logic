@@ -1,0 +1,43 @@
+.wrapper {
+    margin-top: 0;
+}
+.paragraph {
+    font-size: 20px;
+}
+.panel {
+    width: 200px;
+    height: 900px;
+    border: 1px solid;
+    padding: 0 20px 0 15px;
+    position: absolute;
+    right: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease-out;
+}
+.button {
+    margin-top: 20px;
+    background-color: #5684f6;
+    border-radius: 30px;
+    padding: 10px 20px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.form__button {
+    margin-top: 15px;
+    background-color: #5684f6;
+    border-radius: 30px;
+    min-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+input[type=file]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: .2em .4em;
+    border-radius: 30px;
+    background-color: #5684f6;
+    transition: 1s;
+}
